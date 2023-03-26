@@ -132,7 +132,6 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.SEPOLIA]: 'Sepolia',
   [ChainId.HARDHAT]: 'Hardhat',
   [ChainId.TAIKO]: 'Taiko',
   [ChainId.TAIKO_INTERNAL_1]: 'Taiko_Internal_1',
