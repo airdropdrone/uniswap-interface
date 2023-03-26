@@ -29,11 +29,10 @@ export function getEtherscanLink(chainId: ChainId, data: string, type: 'transact
   let prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
 
   switch (chainId) {
-    case ChainId.HARDHAT:
-    case ChainId.TAIKO:
+    case ChainId.KOVAN:
       prefix = 'https://l2explorer.a2.taiko.xyz'
       break
-    case ChainId.TAIKO_INTERNAL_1:
+    case ChainId.KOVAN:
       prefix = 'https://l2explorer.internal.taiko.xyz'
       break
   }
